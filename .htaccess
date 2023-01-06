@@ -1,0 +1,7 @@
+AddType text/cache-manifest .manifest
+AddType application/manifest+json .webmanifest
+
+SetEnvIf Request_URI "(bookicon\.png)$" allow
+Order allow,deny
+Allow from env=allow
+Satisfy any

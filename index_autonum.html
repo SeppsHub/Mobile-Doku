@@ -1,0 +1,976 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      lang="de"
+      manifest="cache.manifest">
+   <head>
+      <meta charset="UTF-8"/>
+      <meta name="generator" content="db_2_jqm.xsl"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1"/>
+      <meta name="description" content="Mobile Web-Anwendung zu Produkt"/>
+      <meta name="mobile-web-app-capable" content="yes"/>
+      <meta name="apple-mobile-web-app-capable" content="yes"/>
+      <meta name="apple-mobile-web-app-title" content="Produkt"/>
+      <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+      <meta name="application-name" content="Produkt"/>
+      <meta name="theme-color" content="black"/>
+      <link rel="icon" sizes="192x192" href="bookicon.png"/>
+      <link rel="apple-touch-icon" href="bookicon.png"/>
+      <link rel="apple-touch-startup-image" href="bilder/titel.png"/>
+      <link rel="manifest" href="manifest.webmanifest"/>
+      <link rel="stylesheet" href="custom_jqm.css" type="text/css"/>
+      <style type="text/css">nav[data-role="navbar"] > ul > li { width: 14.28% !important; clear: none !important; }</style>
+      <link rel="stylesheet" href="jqm/jquery.mobile-1.4.5.min.css" type="text/css"/>
+      <script src="jqm/jquery-1.12.4.min.js" type="text/javascript"></script>
+      <script src="custom_jqm.js" type="text/javascript"></script>
+      <script src="jqm/jquery.mobile-1.4.5.min.js" type="text/javascript"></script>
+      <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"/><![endif]-->
+      <title>Anleitung zu Produkt</title>
+   </head>
+   <body>
+      <article data-role="page" id="start" data-title="Inhaltsverzeichnis">
+         <header data-role="header"
+                 data-position="fixed"
+                 data-tap-toggle="false"
+                 data-hide-during-focus="false"
+                 data-theme="b">
+            <h1>Anleitung zu Produkt</h1>
+            <a class="ui-btn ui-btn-active ui-icon-home ui-btn-icon-left ui-corner-all">Start</a>
+            <a href="#info" class="ui-btn ui-icon-info ui-btn-icon-left ui-corner-all">Info</a>
+            <nav data-role="navbar" data-iconpos="top">
+               <ul>
+                  <li>
+                     <a href="#kap1" data-icon="action">Kapitel 1</a>
+                  </li>
+                  <li>
+                     <a href="#kap2" data-icon="action">Kapitel 2</a>
+                  </li>
+                  <li>
+                     <a href="#kap3" data-icon="action">Kapitel 3</a>
+                  </li>
+                  <li>
+                     <a href="#kap4" data-icon="action">Kapitel 4</a>
+                  </li>
+                  <li>
+                     <a href="#kap5" data-icon="action">Kapitel 5</a>
+                  </li>
+                  <li>
+                     <a href="#kap6" data-icon="action">Kapitel 6</a>
+                  </li>
+                  <li>
+                     <a href="#kap7" data-icon="action">Kapitel 7</a>
+                  </li>
+               </ul>
+            </nav>
+         </header>
+         <main data-role="main" class="ui-content">
+            <div id="logo">
+               <h1>Produktbezeichnung</h1>
+               <p>
+                  <img src="bilder/titel.png" alt="Produkt-Logo"/>
+               </p>
+            </div>
+            <h2>Inhaltsverzeichnis</h2>
+            <ul data-role="listview" data-inset="true">
+               <li>
+                  <a href="#kap1">Kapitel 1: Absätze</a>
+               </li>
+               <li>
+                  <a href="#kap2">Kapitel 2: Listen</a>
+               </li>
+               <li>
+                  <a href="#kap3">Kapitel 3: Bilder</a>
+               </li>
+               <li>
+                  <a href="#kap4">Kapitel 4: Handlungsanweisungen</a>
+               </li>
+               <li>
+                  <a href="#kap5">Kapitel 5: Tabellen</a>
+               </li>
+               <li>
+                  <a href="#kap6">Kapitel 6: Q&amp;A und Literatur</a>
+               </li>
+               <li>
+                  <a href="#kap7">Kapitel 7: Warnhinweise</a>
+               </li>
+               <li>
+                  <a href="#index">Stichwortverzeichnis</a>
+               </li>
+            </ul>
+         </main>
+         <footer data-role="footer"
+                 data-position="fixed"
+                 data-tap-toggle="false"
+                 data-hide-during-focus="false"
+                 data-theme="b">
+            <h1>Mobile Doku 2022/23</h1>
+         </footer>
+      </article>
+      <article data-role="page" id="info" data-title="Informationen">
+         <header data-role="header"
+                 data-position="fixed"
+                 data-tap-toggle="false"
+                 data-hide-during-focus="false"
+                 data-theme="b">
+            <h1>Anleitung zu Produkt</h1>
+            <a href="#start"
+               class="ui-btn ui-icon-home ui-btn-icon-left ui-corner-all">Start</a>
+            <a class="ui-btn ui-btn-active ui-icon-info ui-btn-icon-left ui-corner-all">Info</a>
+            <nav data-role="navbar" data-iconpos="top">
+               <ul>
+                  <li>
+                     <a href="#kap1" data-icon="action">Kapitel 1</a>
+                  </li>
+                  <li>
+                     <a href="#kap2" data-icon="action">Kapitel 2</a>
+                  </li>
+                  <li>
+                     <a href="#kap3" data-icon="action">Kapitel 3</a>
+                  </li>
+                  <li>
+                     <a href="#kap4" data-icon="action">Kapitel 4</a>
+                  </li>
+                  <li>
+                     <a href="#kap5" data-icon="action">Kapitel 5</a>
+                  </li>
+                  <li>
+                     <a href="#kap6" data-icon="action">Kapitel 6</a>
+                  </li>
+                  <li>
+                     <a href="#kap7" data-icon="action">Kapitel 7</a>
+                  </li>
+               </ul>
+            </nav>
+         </header>
+         <main data-role="main" class="ui-content">
+            <h2>Impressum</h2>
+            <h3>Material und Umsetzung</h3>
+            <p>Ein Projekt für den Kurs Mobile Dokumentation im Wintersemester 2022/23, umgesetzt mit DocBook und jQuery Mobile.</p>
+            <p>Master IDMM 21 | Text- und Bildinhalte: …</p>
+            <p>© 2022 Hochschule Merseburg / Fachbereich WIW</p>
+            <h3>Kontakt</h3>
+            <address>
+               <p>Hochschule Merseburg</p>
+               <p>Fachbereich WIW</p>
+               <p>Ansprechpartner*in</p>
+               <p>Eberhard-Leibnitz-Str. 2</p>
+               <p>06217 Merseburg</p>
+               <p>Deutschland</p>
+               <p>&#x260E; +49 3461 46 2424</p>
+               <p>&#x1F4E7; <a href="mailto:vorname.nachname@stud-hs-merseburg.de">vorname.nachname@stud-hs-merseburg.de</a>
+               </p>
+            </address>
+            <h3>Stand</h3>
+            <p>26.09.2022</p>
+         </main>
+         <footer data-role="footer"
+                 data-position="fixed"
+                 data-tap-toggle="false"
+                 data-hide-during-focus="false"
+                 data-theme="b">
+            <h1>Mobile Doku 2022/23</h1>
+         </footer>
+      </article>
+      <article data-role="page" id="index" data-title="Index">
+         <header data-role="header"
+                 data-position="fixed"
+                 data-tap-toggle="false"
+                 data-hide-during-focus="false"
+                 data-theme="b">
+            <h1>Anleitung zu Produkt</h1>
+            <a href="#start" class="ui-btn ui-icon-back ui-btn-icon-left">Start</a>
+            <a href="#info" class="ui-btn ui-icon-info ui-btn-icon-left">Info</a>
+            <nav data-role="navbar" data-iconpos="top">
+               <ul>
+                  <li>
+                     <a href="#kap1" data-icon="action">Kapitel 1</a>
+                  </li>
+                  <li>
+                     <a href="#kap2" data-icon="action">Kapitel 2</a>
+                  </li>
+                  <li>
+                     <a href="#kap3" data-icon="action">Kapitel 3</a>
+                  </li>
+                  <li>
+                     <a href="#kap4" data-icon="action">Kapitel 4</a>
+                  </li>
+                  <li>
+                     <a href="#kap5" data-icon="action">Kapitel 5</a>
+                  </li>
+                  <li>
+                     <a href="#kap6" data-icon="action">Kapitel 6</a>
+                  </li>
+                  <li>
+                     <a href="#kap7" data-icon="action">Kapitel 7</a>
+                  </li>
+               </ul>
+            </nav>
+         </header>
+         <main data-role="main" class="ui-content">
+            <h2>Stichwortverzeichnis (10)</h2>
+            <form class="ui-filterable">
+               <input id="indexsearch" data-type="search" placeholder="Begriffe suchen …"/>
+            </form>
+            <ul data-role="listview"
+                id="keywords"
+                data-filter="true"
+                data-input="#indexsearch"
+                data-autodividers="true"
+                data-inset="true">
+               <li>
+                  <a href="#Abbildungstext">Abbildungstext</a>
+               </li>
+               <li>
+                  <a href="#Begriffe_mit_Erklärungen">Begriffe mit Erklärungen</a>
+               </li>
+               <li>
+                  <a href="#Bibliotheken">Bibliotheken</a>
+               </li>
+               <li>
+                  <a href="#Ergebnis">Ergebnis</a>
+               </li>
+               <li>
+                  <a href="#Positionsnummern">Positionsnummern</a>
+               </li>
+               <li>
+                  <a href="#Schritt">Schritt</a>
+               </li>
+               <li>
+                  <a href="#Speziell_hervorgehobener_Text">Speziell hervorgehobener Text</a>
+               </li>
+               <li>
+                  <a href="#Unterschritt">Unterschritt</a>
+               </li>
+               <li>
+                  <a href="#Web-Technologien">Web-Technologien</a>
+               </li>
+               <li>
+                  <a href="#Zwischenergebnis">Zwischenergebnis</a>
+               </li>
+            </ul>
+         </main>
+         <footer data-role="footer"
+                 data-position="fixed"
+                 data-tap-toggle="false"
+                 data-hide-during-focus="false"
+                 data-theme="b">
+            <h1>Mobile Doku 2022/23</h1>
+         </footer>
+      </article>
+      <article data-role="page" id="kap1" data-title="Absätze">
+         <header data-role="header"
+                 data-position="fixed"
+                 data-tap-toggle="false"
+                 data-hide-during-focus="false"
+                 data-theme="b">
+            <h1>Anleitung zu Produkt</h1>
+            <a href="#start" class="ui-btn ui-icon-back ui-btn-icon-left">Start</a>
+            <a href="#info" class="ui-btn ui-icon-info ui-btn-icon-left">Info</a>
+            <nav data-role="navbar" data-iconpos="top">
+               <ul>
+                  <li>
+                     <a class="ui-btn-active ui-state-persist" data-icon="eye">Kapitel 1</a>
+                  </li>
+                  <li>
+                     <a href="#kap2" data-icon="action">Kapitel 2</a>
+                  </li>
+                  <li>
+                     <a href="#kap3" data-icon="action">Kapitel 3</a>
+                  </li>
+                  <li>
+                     <a href="#kap4" data-icon="action">Kapitel 4</a>
+                  </li>
+                  <li>
+                     <a href="#kap5" data-icon="action">Kapitel 5</a>
+                  </li>
+                  <li>
+                     <a href="#kap6" data-icon="action">Kapitel 6</a>
+                  </li>
+                  <li>
+                     <a href="#kap7" data-icon="action">Kapitel 7</a>
+                  </li>
+               </ul>
+            </nav>
+         </header>
+         <main data-role="main" class="ui-content">
+            <section data-role="collapsibleset"
+                     data-collapsed-icon="arrow-d"
+                     data-expanded-icon="arrow-u">
+               <h1>1 Absätze</h1>
+               <section data-role="collapsible">
+                  <h2>1.1 Unterpunkt</h2>
+                  <p>Text</p>
+                  <p>Text</p>
+                  <section data-role="collapsible">
+                     <h3>1.1.1 Unterpunkt</h3>
+                     <p>Text Text Text</p>
+                     <p>Text <em>hervorgehoben</em> Text</p>
+                     <p>Text <strong>stark hervorgehoben</strong> Text</p>
+                     <p>Text <em>
+                           <strong>kursiv und fett</strong>
+                        </em>
+                     </p>
+                     <p class="infobox">
+                        <span data-keyword="Speziell_hervorgehobener_Text">Speziell hervorgehobener Text</span>.</p>
+                     <h4>Titel</h4>
+                     <p>Text</p>
+                  </section>
+               </section>
+            </section>
+         </main>
+         <footer data-role="footer"
+                 data-position="fixed"
+                 data-tap-toggle="false"
+                 data-hide-during-focus="false"
+                 data-theme="b">
+            <h1>Mobile Doku 2022/23</h1>
+            <a href="#kap2"
+               class="ui-btn ui-btn-right ui-btn-icon-right ui-icon-forward">Kap 2</a>
+         </footer>
+      </article>
+      <article data-role="page" id="kap2" data-title="Listen">
+         <header data-role="header"
+                 data-position="fixed"
+                 data-tap-toggle="false"
+                 data-hide-during-focus="false"
+                 data-theme="b">
+            <h1>Anleitung zu Produkt</h1>
+            <a href="#start" class="ui-btn ui-icon-back ui-btn-icon-left">Start</a>
+            <a href="#info" class="ui-btn ui-icon-info ui-btn-icon-left">Info</a>
+            <nav data-role="navbar" data-iconpos="top">
+               <ul>
+                  <li>
+                     <a href="#kap1" data-icon="action">Kapitel 1</a>
+                  </li>
+                  <li>
+                     <a class="ui-btn-active ui-state-persist" data-icon="eye">Kapitel 2</a>
+                  </li>
+                  <li>
+                     <a href="#kap3" data-icon="action">Kapitel 3</a>
+                  </li>
+                  <li>
+                     <a href="#kap4" data-icon="action">Kapitel 4</a>
+                  </li>
+                  <li>
+                     <a href="#kap5" data-icon="action">Kapitel 5</a>
+                  </li>
+                  <li>
+                     <a href="#kap6" data-icon="action">Kapitel 6</a>
+                  </li>
+                  <li>
+                     <a href="#kap7" data-icon="action">Kapitel 7</a>
+                  </li>
+               </ul>
+            </nav>
+         </header>
+         <main data-role="main" class="ui-content">
+            <section data-role="collapsibleset"
+                     data-collapsed-icon="arrow-d"
+                     data-expanded-icon="arrow-u">
+               <h1>2 Listen</h1>
+               <section data-role="collapsible">
+                  <h2>2.1 Unterpunkt</h2>
+                  <h3>
+                     <em>Optionaler Titel der Liste</em>
+                  </h3>
+                  <ul data-role="listview" data-inset="true">
+                     <li>
+                        <p>Text</p>
+                     </li>
+                     <li>
+                        <p>Text</p>
+                     </li>
+                     <li>
+                        <p>Text</p>
+                     </li>
+                  </ul>
+               </section>
+               <section data-role="collapsible">
+                  <h2>2.2 Unterpunkt</h2>
+                  <h3>
+                     <em>Optionaler Titel der Liste</em>
+                  </h3>
+                  <ol data-role="listview" data-inset="true">
+                     <li>
+                        <p>Text</p>
+                     </li>
+                     <li>
+                        <p>Text</p>
+                     </li>
+                     <li>
+                        <p>Text</p>
+                     </li>
+                  </ol>
+               </section>
+               <section data-role="collapsible">
+                  <h2>2.3 Unterpunkt</h2>
+                  <p>Hier werden mittels CSS realisierte <span data-keyword="Positionsnummern">Positionsnummern</span> eingebunden.</p>
+                  <ul data-role="listview" data-inset="true">
+                     <li>
+                        <span>Bezeichnung <span class="posnum">1</span>
+                        </span>
+                     </li>
+                     <li>
+                        <span>Bezeichnung <span class="posnum">2</span>
+                        </span>
+                     </li>
+                     <li>
+                        <span>Bezeichnung <span class="posnum">3</span>
+                        </span>
+                     </li>
+                  </ul>
+                  <ul data-role="listview" data-inset="true">
+                     <li>
+                        <span>Bezeichnung <span class="posnr">(1)</span>
+                        </span>
+                     </li>
+                     <li>
+                        <span>Bezeichnung <span class="posnr">(2)</span>
+                        </span>
+                     </li>
+                     <li>
+                        <span>Bezeichnung <span class="posnr">(3)</span>
+                        </span>
+                     </li>
+                  </ul>
+               </section>
+               <section data-role="collapsible">
+                  <h2>2.4 Unterpunkt</h2>
+                  <p>Liste für <span data-keyword="Begriffe_mit_Erklärungen">Begriffe mit Erklärungen</span>
+                  </p>
+                  <dl>
+                     <dt>Begriff</dt>
+                     <dd>
+                        <p>Erklärung</p>
+                     </dd>
+                     <dt>Begriff</dt>
+                     <dd>
+                        <p>Erklärung</p>
+                     </dd>
+                  </dl>
+               </section>
+            </section>
+         </main>
+         <footer data-role="footer"
+                 data-position="fixed"
+                 data-tap-toggle="false"
+                 data-hide-during-focus="false"
+                 data-theme="b">
+            <h1>Mobile Doku 2022/23</h1>
+            <a href="#kap1" class="ui-btn ui-btn-left ui-btn-icon-left ui-icon-back">Kap 1</a>
+            <a href="#kap3"
+               class="ui-btn ui-btn-right ui-btn-icon-right ui-icon-forward">Kap 3</a>
+         </footer>
+      </article>
+      <article data-role="page" id="kap3" data-title="Bilder">
+         <header data-role="header"
+                 data-position="fixed"
+                 data-tap-toggle="false"
+                 data-hide-during-focus="false"
+                 data-theme="b">
+            <h1>Anleitung zu Produkt</h1>
+            <a href="#start" class="ui-btn ui-icon-back ui-btn-icon-left">Start</a>
+            <a href="#info" class="ui-btn ui-icon-info ui-btn-icon-left">Info</a>
+            <nav data-role="navbar" data-iconpos="top">
+               <ul>
+                  <li>
+                     <a href="#kap1" data-icon="action">Kapitel 1</a>
+                  </li>
+                  <li>
+                     <a href="#kap2" data-icon="action">Kapitel 2</a>
+                  </li>
+                  <li>
+                     <a class="ui-btn-active ui-state-persist" data-icon="eye">Kapitel 3</a>
+                  </li>
+                  <li>
+                     <a href="#kap4" data-icon="action">Kapitel 4</a>
+                  </li>
+                  <li>
+                     <a href="#kap5" data-icon="action">Kapitel 5</a>
+                  </li>
+                  <li>
+                     <a href="#kap6" data-icon="action">Kapitel 6</a>
+                  </li>
+                  <li>
+                     <a href="#kap7" data-icon="action">Kapitel 7</a>
+                  </li>
+               </ul>
+            </nav>
+         </header>
+         <main data-role="main" class="ui-content">
+            <section data-role="collapsibleset"
+                     data-collapsed-icon="arrow-d"
+                     data-expanded-icon="arrow-u">
+               <h1>3 Bilder</h1>
+               <section data-role="collapsible">
+                  <h2>3.1 Bild mit Unterschrift</h2>
+                  <p>
+                     <img src="bilder/abb_1.png" alt="Abb. 1: Abbildungstext"/>
+                  </p>
+                  <p>Abb. 1: <span data-keyword="Abbildungstext">Abbildungstext</span>
+                  </p>
+               </section>
+               <section data-role="collapsible">
+                  <h2>3.2 Bild inline</h2>
+                  <p>Ein Bild kann auch inline 
+        <img class="inline" src="bilder/inline.png" alt=""/>
+        in einem Text erscheinen.</p>
+               </section>
+               <section data-role="collapsible">
+                  <h2>3.3 Bild neben Text (1)</h2>
+                  <div class="ui-grid-a">
+                     <div class="ui-block-a">
+                        <p>Dieser Text soll neben einem Bild stehen.</p>
+                        <p>Dieser Text soll neben einem Bild stehen.</p>
+                     </div>
+                     <div class="ui-block-b">
+                        <p>
+                           <img src="bilder/td_bild.jpg" alt=""/>
+                        </p>
+                     </div>
+                  </div>
+               </section>
+               <section data-role="collapsible">
+                  <h2>3.4 Bild neben Text (2)</h2>
+                  <div class="ui-grid-a">
+                     <div class="ui-block-a">
+                        <p>
+                           <img src="bilder/td_bild.jpg" alt="Abb. 2: Abbildungstext"/>
+                        </p>
+                        <p>Abb. 2: Abbildungstext</p>
+                     </div>
+                     <div class="ui-block-b">
+                        <p>Dieser Text soll neben einem Bild stehen.</p>
+                        <p>Dieser Text soll neben einem Bild stehen.</p>
+                     </div>
+                  </div>
+               </section>
+               <section data-role="collapsible">
+                  <h2>3.5 Text neben Text</h2>
+                  <div class="ui-grid-a">
+                     <div class="ui-block-a">
+                        <p>Dieser Text steht in der linken Spalte.</p>
+                        <p>Dieser Text steht in der linken Spalte.</p>
+                     </div>
+                     <div class="ui-block-b">
+                        <p>Dieser Text steht in der rechten Spalte.</p>
+                        <p>Dieser Text steht in der rechten Spalte.</p>
+                     </div>
+                  </div>
+               </section>
+            </section>
+         </main>
+         <footer data-role="footer"
+                 data-position="fixed"
+                 data-tap-toggle="false"
+                 data-hide-during-focus="false"
+                 data-theme="b">
+            <h1>Mobile Doku 2022/23</h1>
+            <a href="#kap2" class="ui-btn ui-btn-left ui-btn-icon-left ui-icon-back">Kap 2</a>
+            <a href="#kap4"
+               class="ui-btn ui-btn-right ui-btn-icon-right ui-icon-forward">Kap 4</a>
+         </footer>
+      </article>
+      <article data-role="page" id="kap4" data-title="Handlungsanweisungen">
+         <header data-role="header"
+                 data-position="fixed"
+                 data-tap-toggle="false"
+                 data-hide-during-focus="false"
+                 data-theme="b">
+            <h1>Anleitung zu Produkt</h1>
+            <a href="#start" class="ui-btn ui-icon-back ui-btn-icon-left">Start</a>
+            <a href="#info" class="ui-btn ui-icon-info ui-btn-icon-left">Info</a>
+            <nav data-role="navbar" data-iconpos="top">
+               <ul>
+                  <li>
+                     <a href="#kap1" data-icon="action">Kapitel 1</a>
+                  </li>
+                  <li>
+                     <a href="#kap2" data-icon="action">Kapitel 2</a>
+                  </li>
+                  <li>
+                     <a href="#kap3" data-icon="action">Kapitel 3</a>
+                  </li>
+                  <li>
+                     <a class="ui-btn-active ui-state-persist" data-icon="eye">Kapitel 4</a>
+                  </li>
+                  <li>
+                     <a href="#kap5" data-icon="action">Kapitel 5</a>
+                  </li>
+                  <li>
+                     <a href="#kap6" data-icon="action">Kapitel 6</a>
+                  </li>
+                  <li>
+                     <a href="#kap7" data-icon="action">Kapitel 7</a>
+                  </li>
+               </ul>
+            </nav>
+         </header>
+         <main data-role="main" class="ui-content">
+            <section data-role="collapsibleset"
+                     data-collapsed-icon="arrow-d"
+                     data-expanded-icon="arrow-u">
+               <h1>4 Handlungsanweisungen</h1>
+               <section data-role="collapsible">
+                  <h2>4.1 Unterpunkt</h2>
+                  <p>Text</p>
+                  <ol>
+                     <li>
+                        <p>
+                           <span data-keyword="Schritt">Schritt</span>
+                        </p>
+                     </li>
+                     <li>
+                        <p>Schritt</p>
+                     </li>
+                  </ol>
+                  <div class="result">
+                     <p>
+                        <span data-keyword="Ergebnis">Ergebnis</span>
+                     </p>
+                  </div>
+               </section>
+               <section data-role="collapsible">
+                  <h2>4.2 Unterpunkt</h2>
+                  <p>Text</p>
+                  <ol>
+                     <li>
+                        <p>Schritt</p>
+                        <div class="stepresult">
+                           <p>
+                              <span data-keyword="Zwischenergebnis">Zwischenergebnis</span>
+                           </p>
+                        </div>
+                     </li>
+                     <li>
+                        <p>Schritt</p>
+                     </li>
+                  </ol>
+                  <div class="result">
+                     <p>Ergebnis</p>
+                  </div>
+               </section>
+               <section data-role="collapsible">
+                  <h2>4.3 Unterpunkt</h2>
+                  <p>Text</p>
+                  <ol>
+                     <li>
+                        <p>Schritt</p>
+                        <ol>
+                           <li>
+                              <p>
+                                 <span data-keyword="Unterschritt">Unterschritt</span>
+                              </p>
+                              <div class="stepresult">
+                                 <p>Unterergebnis</p>
+                              </div>
+                           </li>
+                           <li>
+                              <p>Unterschritt</p>
+                           </li>
+                        </ol>
+                     </li>
+                     <li>
+                        <p>Schritt</p>
+                        <div class="stepresult">
+                           <p>Zwischenergebnis</p>
+                        </div>
+                     </li>
+                  </ol>
+                  <div class="result">
+                     <p>Ergebnis</p>
+                  </div>
+               </section>
+            </section>
+         </main>
+         <footer data-role="footer"
+                 data-position="fixed"
+                 data-tap-toggle="false"
+                 data-hide-during-focus="false"
+                 data-theme="b">
+            <h1>Mobile Doku 2022/23</h1>
+            <a href="#kap3" class="ui-btn ui-btn-left ui-btn-icon-left ui-icon-back">Kap 3</a>
+            <a href="#kap5"
+               class="ui-btn ui-btn-right ui-btn-icon-right ui-icon-forward">Kap 5</a>
+         </footer>
+      </article>
+      <article data-role="page" id="kap5" data-title="Tabellen">
+         <header data-role="header"
+                 data-position="fixed"
+                 data-tap-toggle="false"
+                 data-hide-during-focus="false"
+                 data-theme="b">
+            <h1>Anleitung zu Produkt</h1>
+            <a href="#start" class="ui-btn ui-icon-back ui-btn-icon-left">Start</a>
+            <a href="#info" class="ui-btn ui-icon-info ui-btn-icon-left">Info</a>
+            <nav data-role="navbar" data-iconpos="top">
+               <ul>
+                  <li>
+                     <a href="#kap1" data-icon="action">Kapitel 1</a>
+                  </li>
+                  <li>
+                     <a href="#kap2" data-icon="action">Kapitel 2</a>
+                  </li>
+                  <li>
+                     <a href="#kap3" data-icon="action">Kapitel 3</a>
+                  </li>
+                  <li>
+                     <a href="#kap4" data-icon="action">Kapitel 4</a>
+                  </li>
+                  <li>
+                     <a class="ui-btn-active ui-state-persist" data-icon="eye">Kapitel 5</a>
+                  </li>
+                  <li>
+                     <a href="#kap6" data-icon="action">Kapitel 6</a>
+                  </li>
+                  <li>
+                     <a href="#kap7" data-icon="action">Kapitel 7</a>
+                  </li>
+               </ul>
+            </nav>
+         </header>
+         <main data-role="main" class="ui-content">
+            <section data-role="collapsibleset"
+                     data-collapsed-icon="arrow-d"
+                     data-expanded-icon="arrow-u">
+               <h1>5 Tabellen</h1>
+               <section data-role="collapsible">
+                  <h2>5.1 Unterpunkt</h2>
+                  <h3>
+                     <em>Beschreibung</em>
+                  </h3>
+                  <table data-role="table" class="ui-responsive">
+                     <thead>
+                        <tr>
+                           <th>Kopf 1</th>
+                           <th>Kopf 2</th>
+                           <th>Kopf 3</th>
+                        </tr>
+                     </thead>
+                     <tfoot>
+                        <tr>
+                           <th>Fuß 1</th>
+                           <th>Fuß 2</th>
+                           <th>Fuß 3</th>
+                        </tr>
+                     </tfoot>
+                     <tbody>
+                        <tr>
+                           <td>Inhalt</td>
+                           <td>Inhalt</td>
+                           <td>Inhalt</td>
+                        </tr>
+                        <tr>
+                           <td>Inhalt</td>
+                           <td>Inhalt</td>
+                           <td>Inhalt</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <p>Tab. 1: Beispieltabelle</p>
+                  <h3>
+                     <em>Beschreibung</em>
+                  </h3>
+                  <table data-role="table" class="ui-responsive">
+                     <thead>
+                        <tr>
+                           <th>Kopf 1</th>
+                           <th>Kopf 2</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td>Inhalt</td>
+                           <td>Inhalt</td>
+                        </tr>
+                        <tr>
+                           <td>Inhalt</td>
+                           <td>Inhalt</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <p>Tab. 2: Beispieltabelle</p>
+               </section>
+            </section>
+         </main>
+         <footer data-role="footer"
+                 data-position="fixed"
+                 data-tap-toggle="false"
+                 data-hide-during-focus="false"
+                 data-theme="b">
+            <h1>Mobile Doku 2022/23</h1>
+            <a href="#kap4" class="ui-btn ui-btn-left ui-btn-icon-left ui-icon-back">Kap 4</a>
+            <a href="#kap6"
+               class="ui-btn ui-btn-right ui-btn-icon-right ui-icon-forward">Kap 6</a>
+         </footer>
+      </article>
+      <article data-role="page" id="kap6" data-title="Q&amp;A und Literatur">
+         <header data-role="header"
+                 data-position="fixed"
+                 data-tap-toggle="false"
+                 data-hide-during-focus="false"
+                 data-theme="b">
+            <h1>Anleitung zu Produkt</h1>
+            <a href="#start" class="ui-btn ui-icon-back ui-btn-icon-left">Start</a>
+            <a href="#info" class="ui-btn ui-icon-info ui-btn-icon-left">Info</a>
+            <nav data-role="navbar" data-iconpos="top">
+               <ul>
+                  <li>
+                     <a href="#kap1" data-icon="action">Kapitel 1</a>
+                  </li>
+                  <li>
+                     <a href="#kap2" data-icon="action">Kapitel 2</a>
+                  </li>
+                  <li>
+                     <a href="#kap3" data-icon="action">Kapitel 3</a>
+                  </li>
+                  <li>
+                     <a href="#kap4" data-icon="action">Kapitel 4</a>
+                  </li>
+                  <li>
+                     <a href="#kap5" data-icon="action">Kapitel 5</a>
+                  </li>
+                  <li>
+                     <a class="ui-btn-active ui-state-persist" data-icon="eye">Kapitel 6</a>
+                  </li>
+                  <li>
+                     <a href="#kap7" data-icon="action">Kapitel 7</a>
+                  </li>
+               </ul>
+            </nav>
+         </header>
+         <main data-role="main" class="ui-content">
+            <section data-role="collapsibleset"
+                     data-collapsed-icon="arrow-d"
+                     data-expanded-icon="arrow-u">
+               <h1>6 Q&amp;A und Literatur</h1>
+               <section data-role="collapsible">
+                  <h2>6.1 FAQ zu Mobiler Doku</h2>
+                  <ol data-role="listview" data-inset="true">
+                     <li>
+                        <p>Welche <span data-keyword="Web-Technologien">Web-Technologien</span> werden benötigt?</p>
+                        <section data-role="collapsible" data-mini="true">
+                           <h2>Antwort</h2>
+                           <p>HTML, CSS und JavaScript</p>
+                        </section>
+                     </li>
+                     <li>
+                        <p>Welche <span data-keyword="Bibliotheken">Bibliotheken</span> werden eingesetzt?</p>
+                        <section data-role="collapsible" data-mini="true">
+                           <h2>Antwort</h2>
+                           <p>jQuery und jQuery Mobile</p>
+                        </section>
+                     </li>
+                     <li>
+                        <p>Womit lässt sich der DocBook-Inhalt zur Web-App verarbeiten?</p>
+                        <section data-role="collapsible" data-mini="true">
+                           <h2>Antwort</h2>
+                           <p>Transformation mit XSLT</p>
+                        </section>
+                     </li>
+                  </ol>
+               </section>
+               <section data-role="collapsible">
+                  <h2>6.2 Literatur</h2>
+                  <ol data-role="listview" data-inset="true">
+                     <li>
+                        <strong>Hennig, Thomas</strong> (2013). Konzeption und Entwicklung einer mobilen Web-Applikation aus dem XML-Datenexport eines Redaktionssystems (Masterthesis). Hochschule Merseburg.</li>
+                     <li>
+                        <strong>Mintert, Stefan</strong> (2014). Tutorial zu jQuery Mobile (iX 5, 6, 7). heise-Verlag.</li>
+                  </ol>
+               </section>
+            </section>
+         </main>
+         <footer data-role="footer"
+                 data-position="fixed"
+                 data-tap-toggle="false"
+                 data-hide-during-focus="false"
+                 data-theme="b">
+            <h1>Mobile Doku 2022/23</h1>
+            <a href="#kap5" class="ui-btn ui-btn-left ui-btn-icon-left ui-icon-back">Kap 5</a>
+            <a href="#kap7"
+               class="ui-btn ui-btn-right ui-btn-icon-right ui-icon-forward">Kap 7</a>
+         </footer>
+      </article>
+      <article data-role="page" id="kap7" data-title="Warnhinweise">
+         <header data-role="header"
+                 data-position="fixed"
+                 data-tap-toggle="false"
+                 data-hide-during-focus="false"
+                 data-theme="b">
+            <h1>Anleitung zu Produkt</h1>
+            <a href="#start" class="ui-btn ui-icon-back ui-btn-icon-left">Start</a>
+            <a href="#info" class="ui-btn ui-icon-info ui-btn-icon-left">Info</a>
+            <nav data-role="navbar" data-iconpos="top">
+               <ul>
+                  <li>
+                     <a href="#kap1" data-icon="action">Kapitel 1</a>
+                  </li>
+                  <li>
+                     <a href="#kap2" data-icon="action">Kapitel 2</a>
+                  </li>
+                  <li>
+                     <a href="#kap3" data-icon="action">Kapitel 3</a>
+                  </li>
+                  <li>
+                     <a href="#kap4" data-icon="action">Kapitel 4</a>
+                  </li>
+                  <li>
+                     <a href="#kap5" data-icon="action">Kapitel 5</a>
+                  </li>
+                  <li>
+                     <a href="#kap6" data-icon="action">Kapitel 6</a>
+                  </li>
+                  <li>
+                     <a class="ui-btn-active ui-state-persist" data-icon="eye">Kapitel 7</a>
+                  </li>
+               </ul>
+            </nav>
+         </header>
+         <main data-role="main" class="ui-content">
+            <section data-role="collapsibleset"
+                     data-collapsed-icon="arrow-d"
+                     data-expanded-icon="arrow-u">
+               <h1>7 Warnhinweise</h1>
+               <p>caution | important | note | tip | warning</p>
+               <section data-role="collapsible">
+                  <h2>7.1 Unterpunkt</h2>
+                  <div class="warnblock">
+                     <h3 class="caution">Achtung!</h3>
+                     <p>Weiterer Inhalt ...</p>
+                  </div>
+                  <div class="warnblock">
+                     <h3 class="important">Wichtig!</h3>
+                     <p>Weiterer Inhalt ...</p>
+                  </div>
+                  <div class="warnblock">
+                     <h3 class="note">Hinweis!</h3>
+                     <p>Weiterer Inhalt ...</p>
+                  </div>
+                  <div class="warnblock">
+                     <h3 class="tip">Tipp!</h3>
+                     <p>Weiterer Inhalt ...</p>
+                  </div>
+                  <div class="warnblock">
+                     <h3 class="warning">Warnung!</h3>
+                     <p>Weiterer Inhalt ...</p>
+                  </div>
+                  <div class="intro">
+                     <p>note mit role="intro" | Weiterer Inhalt ...</p>
+                  </div>
+                  <div class="infopin">
+                     <p>note mit role="infopin" | Weiterer Inhalt ...</p>
+                  </div>
+               </section>
+            </section>
+         </main>
+         <footer data-role="footer"
+                 data-position="fixed"
+                 data-tap-toggle="false"
+                 data-hide-during-focus="false"
+                 data-theme="b">
+            <h1>Mobile Doku 2022/23</h1>
+            <a href="#kap6" class="ui-btn ui-btn-left ui-btn-icon-left ui-icon-back">Kap 6</a>
+         </footer>
+      </article>
+   </body>
+</html>

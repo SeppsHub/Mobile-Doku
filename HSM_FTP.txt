@@ -1,0 +1,60 @@
+=========================
+Mobile Doku online testen
+=========================
+
+> FTP-Client installieren
+
+für Windows ist WinSCP eine gute Wahl:
+https://winscp.net/
+
+für OSX FileZilla probieren (auch für Windows verfügbar):
+https://filezilla-project.org/download.php?platform=osx
+
+=========================
+
+> Einstellungen
+
+Server:
+sftp.hs-merseburg.de
+
+Portnummer:
+21
+
+Übertragungsprotokoll:
+FTP
+
+Verschlüsselung:
+TLS/SSL - explizite Verschlüsselung
+
+Zugangsdaten:
+analog zu den anderen HS-Diensten
+
+=========================
+
+> Daten hochladen
+
+nach /public_html/unterverzeichnis kopieren:
+
+bilder
+jqm
+.htaccess
+bookicon.png
+cache.manifest
+custom_jqm.css
+index.html
+manifest.webmanifest
+
+(Hinweis: Upload von "jqm" kann durch die vielen kleinen Dateien abbrechen, dann einfach fortsetzen.)
+
+=========================
+
+> Seitenaufruf
+
+https://web.hs-merseburg.de/~username/unterverzeichnis/
+
+Tests auf Smartphones / Tablets empfohlen, je nach System zum Homescreen hinzufügen wählen, dann sollte das Icon abgelegt werden.
+
+Mein aus DocBook transformiertes Kursdemo liegt hier:
+https://web.hs-merseburg.de/~meiniket/temp/Mobile_Doku/Demo/
+
+=========================

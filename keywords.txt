@@ -1,0 +1,30 @@
+---------------------------------------
+| Neues Feature: Stichwortverzeichnis |
+---------------------------------------
+
+- Im DocBook-Code können Stichworttexte in dieser Form markiert werden:
+  <indexterm><primary>Text</primary></indexterm>
+
+- Die Transformation verarbeitet entsprechend präparierte Absätze (para),
+  jedoch keine Überschriften (title).
+
+- Pro Stichworttext entsteht im HTML-Code das Ergebnis:
+  <span data-keyword="Stichworttext">Stichworttext</span>
+  (Leerzeichen werden in data-keyword durch Unterstriche ersetzt.)
+
+- Im bisherigen Inhaltsverzeichnis ist nach den Kapiteln das
+  Stichwortverzeichnis hinzugekommen. Dieses ist alphabetisch sortiert
+  und es werden die jeweiligen Anfangsbuchstaben vorangestellt. Eine Suche
+  innerhalb der angezeigten Stichworttexte ist ebenfalls möglich.
+
+- Die Interaktion zum Anzeigen der jeweils zugehörigen Sections erfolgt
+  durch zusätzlichen JavaScript-Code in "custom_jqm.js".
+
+- Die jeweilige Textstelle wird temporär bis zur nächsten Suche farbig umrandet
+  (siehe span.keyword {...} in "custom_jqm.css"). Für die Darstellung der
+  Trennbuchstaben dient die neue CSS-Regel li[data-role="list-divider"] {...}.
+
+- Dieses Prinzip ist bereits in "testbook.xml" und den beiden HTML-Ausgaben
+  "index.html" bzw. "index_autonum.html" realisiert.
+
+[11/2021]

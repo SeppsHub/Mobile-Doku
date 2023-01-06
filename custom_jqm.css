@@ -1,0 +1,536 @@
+/* Custom-CSS für jQM */
+
+p
+{
+    font-family: "Segoe UI", sans-serif;
+}
+
+.result p, .stepresult p
+{
+    font-style: italic;
+}
+
+.stepresult
+{
+    margin-top: -0.75rem;
+    margin-bottom: 1.5rem;
+    
+}
+
+html, body
+{
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.ui-content
+{
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+.ui-btn-active
+{
+  color: #FFFFFF !important;
+  background-color: #4b53bc !important;
+  border: none !important;
+  cursor: default !important;
+}
+
+nav[data-role="navbar"] .ui-btn, nav[data-role="navbar"] .ui-btn-active
+{
+  border-left: 1px solid #4b53bc !important;
+  border-right: 1px solid #4b53bc !important;
+}
+
+header[data-role="header"]
+{
+  border-bottom: 1px solid #4b53bc !important;
+}
+
+header[data-role="header"] h1
+{
+  color: #FFFFFF !important;
+  background-color: #000000 !important;
+  margin: 0 !important;
+  padding-top: 0.5em !important;
+}
+
+footer[data-role="footer"] h1
+{
+  color: #FFFFFF !important;
+  background-color: #000000 !important;
+  font-weight: normal !important;
+  margin: 0 !important;
+}
+
+main[data-role="main"] h1
+{
+  font-size: 1.8em !important;
+  margin: 0.5em 0 !important;
+}
+
+.ui-footer
+{
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.ui-footer > .ui-btn, .ui-header > .ui-btn
+{
+  margin: 0.1em -0.3em !important;
+}
+
+nav[data-role="navbar"] > ul > li
+{
+  /*
+    100% / Button-Anzahl | dynamisch im XSLT realisiert, z. B. bei 6 Buttons:
+    width: 16.66% !important;
+    clear: none !important;
+  */
+}
+
+nav[data-role="navbar"] > ul > li a:not(.ui-btn-active):hover
+{
+  color: #FFFFFF !important;
+  background-color: #9c97f2 !important;
+}
+
+nav[data-role="navbar"] > ul > li a:not(.ui-btn-active):focus
+{
+  color: #FFFFFF !important;
+  background-color: #9c97f2 !important;
+}
+
+header[data-role="header"] > a:not(.ui-btn-active):hover
+{
+  color: #FFFFFF !important;
+  background-color: #CC0000 !important;
+}
+
+header[data-role="header"] > a:not(.ui-btn-active):focus
+{
+  color: #FFFFFF !important;
+  background-color: #9c97f2 !important;
+}
+
+
+footer[data-role="footer"] > .ui-btn:hover
+{
+  color: #FFFFFF !important;
+  background-color: #009900 !important;
+}
+
+footer[data-role="footer"] > .ui-btn:focus
+{
+  color: #FFFFFF !important;
+  background-color: #9c97f2 !important;
+ }
+ 
+.ui-collapsible-collapsed:hover, .ui-collapsible-collapsed:focus
+{
+    background-color: #9c97f2;
+}
+
+ol[data-role="listview"] > li
+{
+  white-space: normal !important;
+}
+
+ol[data-role="listview"] .ui-collapsible-content
+{
+  border: none !important;
+  text-indent: 0 !important;
+  margin-left: 1em !important;
+}
+
+ul[data-role="listview"] li p::before
+{
+  content: "• ";
+}
+
+.ui-page .ui-content .ui-listview li p
+{
+  margin-top: 0em !important;
+  margin-bottom: 0em !important;
+}
+
+.ui-page .ui-content .ui-listview li p
+{
+    white-space: normal;
+}
+
+.ui-listview li span
+{
+    white-space: normal;
+}
+
+p.infobox
+{
+  color: #000000 !important;
+  background-color: #EEEEEE !important;
+  border-left: 3px solid #CC0000 !important;
+  max-width: max-content !important;
+  display: inline-block !important;
+  padding: 0.3em !important;
+  margin: 0 !important;
+  vertical-align: middle !important;
+  text-indent: 0 !important;
+}
+
+span.posnum
+{
+  color: #FFFFFF !important;
+  background-color: #ECB247 !important;
+  font-weight: bold !important;
+  font-size: 14px !important;
+  display: inline-block !important;
+  border-radius: 50% !important;
+  width: 20px !important;
+  height: 20px !important;
+  padding: 2px 3px 2px 3px !important;
+  /*margin-top: -2px !important;*/
+  text-align: center !important;
+  vertical-align: middle !important;
+}
+
+span.posnr
+{
+  color: #009900 !important;
+  background-color: inherit !important;
+  font-weight: bold !important;
+}
+
+div.stepresult > p:first-child::before
+{
+  content: "\2023" !important;
+  color: #4b53bc !important;
+  display: inline !important;
+  font-weight: bold !important;
+  padding-right: 0.3em !important;
+  font-style: normal;
+}
+
+div.result > p:first-child::before
+{
+  content: "\2BC8" !important;
+  color: #4b53bc !important;
+  display: inline !important;
+  font-weight: bold !important;
+  padding-right: 0.3em !important;
+  font-style: normal;
+}
+
+div#logo *
+{
+  text-align: center !important;
+}
+
+h1
+{
+  color: #4b53bc !important;
+  font-family: "Segoe UI", sans-serif;
+}
+
+h3 > em
+{
+  color: #4b53bc !important;
+  font-size: 1em !important;
+  font-weight: normal !important;
+}
+
+p
+{
+  hyphens: auto !important;
+  text-align: justify !important;
+  line-height: 1.5 !important;
+}
+
+li p
+{
+  font-size: 1em !important;
+}
+
+address p
+{
+  line-height: 0.5 !important;
+}
+
+strong
+{
+    color: #4b53bc !important;
+}
+
+strong.aktion
+{
+  color: #4b53bc !important;
+  background-color: inherit !important;
+}
+
+section[data-role="collapsible"] a
+{
+  color: #fff !important;
+  background-color: inherit !important;
+  font-weight: bold !important;
+  text-decoration: none !important;
+}
+
+section[data-role="collapsible"] p a, address p a
+{
+  color: #4b53bc !important;
+  background-color: inherit !important;
+  font-weight: bold !important;
+  text-decoration: none !important;
+}
+
+img
+{
+  max-width: 100% !important;
+}
+
+img.inline
+{
+  display: inline-block !important;
+  vertical-align: text-bottom !important;
+  height: 1.1em !important;
+}
+
+.ui-table, .ui-table td, .ui-table th
+{
+  border-collapse: collapse !important;
+  border: 1px solid #999999 !important;
+  text-align: center !important;
+  margin-top: 0.5em !important;
+}
+
+.ui-table thead th, .ui-table tfoot th
+{
+  color: #0000CC !important;
+  background-color: #FFCC00 !important;
+  min-width: 33.3% !important;
+}
+
+.ui-collapsible-heading-collapsed > .ui-collapsible-heading-toggle
+{
+  color: #000000 !important;
+  background-color: #f9f9f9 !important;
+  font-weight: bold !important;
+}
+
+.ui-collapsible-heading-toggle
+{
+  color: #FFFFFF !important;
+  background-color: #999999 !important;
+  font-weight: normal !important;
+}
+
+/* bei Bedarf zum Beeinflussen von Schatten */
+/*.ui-collapsible .ui-collapsible-heading-toggle.ui-btn:focus, .ui-listview .ui-btn:focus
+{
+  box-shadow: none !important;
+}*/
+
+.ui-focus, .ui-btn:focus
+{
+  box-shadow: 0 0 10px #9c97f2 !important;
+  
+}
+
+/* oder allgemeiner */
+/*.ui-focus, .ui-btn:focus
+{
+  box-shadow: none !important;
+}
+*/
+.ui-collapsible-inset.ui-collapsible-themed-content .ui-collapsible-content
+{
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.ui-collapsible-themed-content
+{
+    background-color: #4b53bc;
+}
+
+main .ui-grid-a
+{
+  display: flex;    
+}
+
+main .ui-grid-a .ui-block-a
+{
+  padding-right: 1em !important;
+  max-width: 800px !important;
+}
+
+main .ui-grid-a .ui-block-b
+{
+  padding-left: 0.5em !important;
+  max-width: max-content !important;
+  /*flex: 1;*/
+}
+
+.warnblock
+{
+  width: 42em !important;
+  margin: 0.8em 0 1em 0 !important;
+  border: 1px solid #999 !important;
+  border-top-right-radius: 14px !important;
+  color: inherit !important;
+  background-color: #EEEEEE !important;
+}
+
+.warnblock h3
+{
+  margin: 0 !important;
+  padding: 0.3em !important;
+  border-top-right-radius: 14px !important;
+}
+
+.warnblock h3::before
+{
+  padding-right: 0.3em !important;
+}
+
+.warnblock p
+{
+  padding-left: 0.5em !important;
+}
+
+h3.caution
+{
+  color: #000000;
+  background-color: #F5FF00 !important;
+}
+
+h3.important
+{
+  color: #FFFFFF;
+  background-color: #DE7D00 !important;
+}
+
+h3.note
+{
+  color: #FFFFFF;
+  background-color: #005989 !important;
+}
+
+h3.note::before
+{
+  content: "\1F4F0" !important;
+}
+
+h3.tip
+{
+  color: #FFFFFF;
+  background-color: #000000 !important;
+}
+
+h3.tip::before
+{
+  content: "\1F4A1" !important;
+}
+
+h3.warning
+{
+  color: #FFFFFF !important;
+  background-color: #BB2724 !important;
+}
+
+h3.caution::before, h3.important::before, h3.warning::before
+{
+  content: "\26A0" !important;
+}
+
+.intro
+{
+  padding: 0 0.5em !important;
+  margin: 0.5em 0 !important;
+  border: 2px solid #F3E786 !important;
+  max-width: max-content !important;
+  color: inherit !important;
+  background-color: #FFFFFF !important;
+}
+
+.intro > p::before
+{
+  content: "\1F4A1" !important;
+  margin-top: -0.5em !important;
+  padding-right: 0.3em !important;
+  display: inline-block !important;
+  vertical-align: middle !important;
+}
+
+.infopin
+{
+  padding: 0 0.5em !important;
+  margin: 0.5em 0 !important;
+  border: 2px solid #EEB6B5 !important;
+  max-width: max-content !important;
+  color: inherit !important;
+  background-color: #FFFFFF !important;
+}
+
+.infopin > p::before
+{
+  content: "\1F4CC" !important;
+  margin-top: -0.5em !important;
+  padding-right: 0.3em !important;
+  display: inline-block !important;
+  vertical-align: middle !important;
+}
+
+table.simple, table.simple td
+{
+  border: 1px solid #000000 !important;
+  border-collapse: collapse !important;
+  padding: 0.5em !important;
+  margin: 0.5em !important;
+}
+
+dt
+{
+  color: #000000 !important;
+  background-color: inherit !important;
+  font-weight: bold !important;
+}
+
+dd
+{
+  margin: 0 1em !important;
+}
+
+dd p
+{
+  margin-top: 0 !important;
+}
+
+article#info h3 + p, article#info p + p
+{
+  margin-top: -0.75em !important;
+}
+
+article#info h3 + address
+{
+  margin-top: -0.25em !important;
+  margin-bottom: 1.5em !important;
+}
+
+article#info address p + p
+{
+  margin-top: 1em !important;
+}
+
+span.keyword
+{
+  border: 1px dashed #0000CC !important;
+}
+
+li[data-role="list-divider"]
+{
+  color: #0000CC !important;
+  background-color: inherit !important;
+  font-size: 1.1em !important;
+  padding-left: 0.25em !important;
+}

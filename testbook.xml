@@ -1,0 +1,1149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://docbook.org/xml/5.1/rng/docbook.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<book xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.1" xml:lang="de">
+
+  <!-- Titeldaten -->
+  <title>
+    <inlinemediaobject>
+      <imageobject>
+        <imagedata fileref="bilder/titel.png"/> <!-- width="10cm" (ggf. für PDF-Ausgabe) ERSETZEN -->
+      </imageobject>
+    </inlinemediaobject>
+    Microsoft Teams - Kurzanleitung
+  </title>
+  <subtitle>MS Teams für Studierende</subtitle>
+  <titleabbrev>Produkt</titleabbrev>
+
+  <!-- Metadaten -->
+  <info>
+    <author>
+      <orgname>Master IDMM 21 | Text- und Bildinhalte: Fahle, Julia; Frank, Sebastian; Looke, Theresa</orgname>
+    </author>
+    <copyright>
+      <year>2022</year>
+      <holder>Hochschule Merseburg / Fachbereich WIW</holder>
+    </copyright>
+    <address>
+      <orgname>Hochschule Merseburg</orgname>
+      <orgname>Fachbereich WIW</orgname>
+      <personname>Sebastian Frank</personname>
+      <street>Rudolf-Haym-Straße 28</street>
+      <city>Halle</city>
+      <postcode>06110</postcode>
+      <country>Deutschland</country>
+      <phone>+49 3461 46 2424</phone> <!-- Dekanat bzw. anpassen -->
+      <email>sebastian.frank2@stud-hs-merseburg.de</email>
+    </address>
+    <abstract>
+      <para>Ein Projekt für den Kurs Mobile Dokumentation im Wintersemester 2022/23, umgesetzt mit DocBook und jQuery Mobile.</para>
+      <simpara>Mobile Doku 2022/23</simpara>
+    </abstract>
+  </info>
+
+
+<!-- hier eigener Inhalt -->
+
+  <chapter>
+    <title>Über Microsoft Teams</title>
+    <section>
+      <title>Was ist Microsoft Teams?</title>
+      
+      <para>Microsoft Teams (kurz MS Teams oder Teams) ist eine Anwendung für Teamarbeit
+        und einfaches Projektmanagement. Dieses chatbasierte Kollaborationstool kann dir
+        mittels virtueller Räume den perfekten Arbeitsplatz bieten, um mit deinem Team
+        an gemeinsamen Projekten zu arbeiten. Das Programm dient der digitalen Unterstützung
+        einer effektiveren Kommunikation und Zusammenarbeit im Team. Es basiert
+        auf vorhandener Microsoft-Technologie und kann mit anderen Office 365-Diensten
+        integriert werden.</para>
+      
+      <para>Microsoft Teams unterstützt unterschiedliche Arten von Apps, die sowohl von Microsoft
+        als auch von Drittanbietern entwickelt wurden. Microsoft ermöglicht auch die
+        Einbindung von sozialen Medien in Teams.</para>
+    </section>
+    
+    <section>
+      <title>Was ist die Idee von Microsoft Teams?</title>
+      
+      <para>Mithilfe von Microsoft Teams kannst du mit deinem Team zentral an einem Ort arbeiten.
+        Der Fokus liegt auf drei Hauptfunktionen:</para>
+      
+      <itemizedlist>   
+        <listitem>
+          <para>Chatten</para>
+        </listitem>
+        <listitem>
+          <para>Meetings halten</para>
+        </listitem>
+        <listitem>
+          <para>Projekte im Team managen</para>
+        </listitem>
+      </itemizedlist>
+      
+      <para>Neben Chat-, Anruf- und Besprechungsfunktionen bietet der Dienst Zugriff auf viele
+        andere Office 365-Dienste. Arbeite professionell im Team zusammen und nutze die
+        Funktionen von Teams, um dein Aufgabenmanagement zu optimieren.</para>
+    </section>
+    
+    <section>
+      <title>Warum Microsoft Teams wählen?</title>
+      
+      <para>Mit Microsoft Teams können du und dein Team synchron an denselben Dokumenten
+        arbeiten. Darüber hinaus kannst du alle Office 365-Dokumente, wie SharePoint
+        Online, Skype for Business, Office Groups, OneDrive oder Microsoft Planner, in das
+        Kommunikationstool integrieren. Auch zahlreiche Anwendungen von Drittanbietern
+        lassen sich problemlos in Teams einbinden.</para>
+      
+      <para>Bei der Zusammenarbeit in Microsoft Teams hast du mehrere Möglichkeiten zur
+        Kommunikation:</para>
+      
+      <itemizedlist>   
+        <listitem>
+          <para>Chats, Videokonferenzen und Audioanrufe betreiben.</para>
+        </listitem>
+        <listitem>
+          <para>Videokonferenzen aufnehmen.</para>
+        </listitem>
+        <listitem>
+          <para>Digitale Whiteboards nutzen.</para>
+        </listitem>
+        <listitem>
+          <para>Vereinfachte Chat-, Personen- und Dokumentensuche nutzen.</para>
+        </listitem>
+      </itemizedlist>
+      
+      <para>Die verschlüsselte Ende-zu-Ende-Kommunikation schützt deine Daten und Dokumente
+        bei der Übertragung. Zudem ist Teams auf allen Geräten verfügbar und mit
+        allen Endgeräten kompatibel.</para>   
+    </section>
+    
+    <section>
+      <title>Wozu diese Bedienungsanleitung?</title>
+      
+      <para>Die Digitalisierung verlagert die Kommunikation mehr denn je in virtuelle Räume,
+        und es besteht eine steigende Nachfrage an:</para>
+      
+      <itemizedlist>   
+        <listitem>
+          <para>schnellem Arbeiten,</para>
+        </listitem>
+        <listitem>
+          <para>besserer technischer Innovation,</para>
+        </listitem>
+        <listitem>
+          <para>digitaler Zusammenarbeit.</para>
+        </listitem>
+      </itemizedlist>
+      
+      <para>Diese Kurzanleitung begleitet dich beim Einstieg in Microsoft Teams und unterstützt
+        dich Schritt für Schritt. Ziel ist es, allen Studierenden die Zusammenarbeit untereinander
+        zu erleichtern, die Kommunikation und Abstimmung zu unterstützen und
+        Projekte effektiv zu planen und zu steuern.</para>
+      
+      <para>Du lernst von der Bedienung der Benutzeroberfläche bis hin zum gemeinsamen
+        Arbeiten mittels Dokumenten und Meetings die wichtigsten Grundlagen für ein effizientes
+        Arbeiten im digitalen Raum.</para>
+      
+      <para><emphasis role="bold">Mit dieser Anleitung gelingt deine Zusammenarbeit mit deinen
+        Kommiliton:innen auf jeden Fall!</emphasis></para>
+      
+    </section>
+  </chapter>
+  
+  <chapter>
+    <title>Benutzeroberfläche</title>
+    
+    <section>
+      <title>Allgemeine Oberfläche</title>
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="bilder/screenshots/allgemeine_oberflaeche_beschriftet_screenshot.png" width="1000"/>
+        </imageobject>
+      </mediaobject>
+    </section>
+    
+    <section>
+      <title>Besprechungsoberfläche</title>
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="bilder/screenshots/besprechungsoberflaeche_beschriftet.png" width="1000"/>
+        </imageobject>
+      </mediaobject>
+    </section>
+    
+  </chapter>
+
+
+  <chapter>
+    <title>Einführung in Teams</title>
+    
+    <section role="grid">
+      <title>Team erstellen</title>
+      
+      <simplesect>
+        <title>Screenshots</title>
+        
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="bilder/screenshots/team_erstellen_1.png"/>
+          </imageobject>
+        </mediaobject>
+        
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="bilder/screenshots/team_erstellen_2.png"/>
+          </imageobject>
+        </mediaobject>
+      </simplesect>
+      
+      <simplesect>
+        <title>Handlung</title>
+         
+         <para>
+          <procedure>
+            <step>
+              <para>In der Navigationsleiste auf das Symbol <emphasis role="bold">Teams</emphasis>
+                <inlinemediaobject>
+                  <imageobject>
+                    <imagedata fileref="bilder/icons/teams%20icon.png"/>
+                    <!-- width="60" -->
+                  </imageobject>
+                </inlinemediaobject> klicken. <emphasis role="posnum">(1)</emphasis></para>
+              <result><para>Deine Teams sowie gegebenenfalls ausgeblendete Teams erscheinen.</para></result>
+            </step>
+            <step>
+              <para>Auf den Button Einem Team beitreten oder erstellen 
+                <inlinemediaobject>
+                  <imageobject>
+                    <imagedata fileref="bilder/icons/teilnehmer%20hinzufuegen%20icon.png"/>
+                  </imageobject>
+                </inlinemediaobject> klicken <emphasis role="posnum">(2)</emphasis>.
+              </para>
+              <result><para>Im Feed erscheinen bereits erstellte Teams der Organisation in Kachelansicht. Diese Teams sind öffentlich sichtbar und frei zugänglich.</para></result>
+            </step>
+            <step>
+              <para>
+                In der ersten Kachel Team erstellen 
+                <inlinemediaobject>
+                  <imageobject>
+                    <imagedata fileref="bilder/icons/teilnehmer%20hinzufuegen%20icon.png"/>
+                  </imageobject>
+                </inlinemediaobject> auf den Button Team erstellen klicken. <emphasis role="posnum">(3)</emphasis>
+              </para>
+              <result><para>Ein neues Fenster öffnet sich, in dem Daten für das neue Team eingestellt werden müssen.</para></result>
+            </step>
+            <step>
+              <para>
+                Einen Team-Namen und optional eine Beschreibung hinzufügen. Im Dropdown-Menü unter Datenschutz die Einstellung Privat auswählen und den Button Weiter anklicken. <emphasis role="posnum">(4)</emphasis>
+              </para>
+              <result><para>Ein neues Fenster öffnet sich.</para></result>
+            </step>
+            <step>
+              <para>
+                Team-Mitglieder durch Eingeben von Namen oder Gruppen suchen und auswählen oder auf den Button Überspringen klicken.
+              </para>
+              <result><para>Die ausgewählten Personen werden dem Team hinzugefügt.</para></result>
+            </step>
+            <result>
+              <para>
+                Dein neu angelegtes Team erscheint in einer neuen Registerkarte innerhalb
+                des Feeds im Bereich Teams innerhalb der Navigationsleiste. Über diese
+                Registerkarte kommst du direkt in das neu erstellte Team.
+              </para>
+            </result>
+          </procedure>
+          
+          <note role="intro">
+            <para>Wenn du dein Team auf Öffentlich stellst, kann jedes Mitglied deiner Organisation
+              dem Team beitreten und mitarbeiten. Damit sind deine Dateien innerhalb
+              des Teams für die Mitglieder deiner Organisation öffentlich zugänglich.</para>
+          </note>
+         </para>
+      </simplesect>
+      
+      
+      
+      
+    </section>
+    
+    <section role="grid">
+      <title>Kanäle erstellen</title>
+      
+      <simplesect>
+        <title>Screenshots</title>
+        
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="bilder/screenshots/kanaele_erstellen_1.png"/>
+          </imageobject>
+        </mediaobject>
+        
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="bilder/screenshots/kanaele_erstellen_2.png"/>
+          </imageobject>
+        </mediaobject>
+        
+        
+      </simplesect>
+      
+      <simplesect>
+        <title>Handlung</title>
+        
+        <para>
+          Du befindest dich in der Navigationsleiste im Bereich Teams 
+            <inlinemediaobject>
+              <imageobject>
+                <imagedata fileref="bilder/icons/teams%20icon.png"/>
+              </imageobject>  
+            </inlinemediaobject> und hast bereits ein Team erstellt
+            (siehe Team erstellen):
+        
+          <procedure>
+            <step>
+              <para>Auf das Icon Weitere Optionen 
+                <inlinemediaobject>
+                 <imageobject>
+                   <imagedata fileref="bilder/icons/optionen%20horizontal%20screenshot.png"/>
+                 </imageobject>
+                </inlinemediaobject> neben dem Team-Namen klicken. <emphasis role="posnum">(1)</emphasis></para>
+              <result><para>Ein neues Fenster öffnet sich.</para></result>
+            </step>
+            
+            <step>
+              <para>Auf die Option Kanal Hinzufügen 
+                <inlinemediaobject>
+                  <imageobject>
+                    <imagedata fileref="bilder/icons/kanal%20hinzufuegen%20icon.png"/>
+                  </imageobject>
+                </inlinemediaobject> klicken. <emphasis role="posnum">(2)</emphasis></para>
+              <result><para>Ein neues Fenster öffnet sich.</para></result>
+            </step>
+            
+            <step>
+              <para>Grundeinstellungen für den Kanal vornehmen.</para>
+              <substeps>
+                <step><para>Namen und optional Beschreibung für den Kanal hinzufügen.</para></step>
+                <step>
+                  <para>Die gewünschte Datenschutz-Option im Dropdown-Menü auswählen.</para>
+                  <simplelist>
+                    <member><emphasis role="bold">Standard: </emphasis>Der neue Kanal ist für das gesamte Team zugänglich.</member>
+                    <member><emphasis role="bold">Privat: </emphasis>Der neue Kanal ist nur für später ausgewählte Personen zugänglich.</member>
+                  </simplelist>
+                </step>
+                <step>
+                  <para>
+                    Um den Kanal automatisch in der Kanalliste aller Nutzer des Teams anzeigen zu
+                    lassen, gegebenenfalls den Haken 
+                    <inlinemediaobject>
+                      <imageobject>
+                        <imagedata fileref="bilder/icons/haken%20icon.png"/>
+                      </imageobject>
+                    </inlinemediaobject>
+                    entsprechenden Kästchen setzen.
+                  </para>
+                </step>
+              </substeps>
+            </step>
+            <step>
+              <para>Auf den Button Hinzufügen klicken.</para>
+            </step>
+            <result><para>Dein neuer Kanal ist erstellt.</para></result>
+          </procedure>
+        </para>       
+      </simplesect>
+    </section>
+    
+    <section role="grid">
+      <title>Registerkarten hinzufügen</title>
+      
+      <simplesect>
+        <title>Screenshots</title>
+        
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="bilder/screenshots/registerkarten_hinzufuegen.png"/>
+          </imageobject>
+        </mediaobject>
+      </simplesect>
+      
+      <simplesect>
+        <title>Handlung</title>
+        
+        <para>
+          Du befindest dich in der Navigationsleiste im Bereich Teams.
+          <inlinemediaobject>
+            <imageobject>
+              <imagedata fileref="bilder/icons/teams%20icon.png"/>
+            </imageobject>  
+          </inlinemediaobject> Du hast bereits einen Kanal erstellt (siehe Kanäle erstellen) und befindest dich im gewünschten Kanal:
+          
+          <procedure>
+            <step>
+              <para>
+                In der Menüleiste auf den Button Registerkarte hinzufügen 
+                <inlinemediaobject>
+                  <imageobject>
+                    <imagedata fileref="bilder/icons/plus%20icon.png"/>
+                  </imageobject>
+                </inlinemediaobject> klicken. <emphasis role="posnum">(1)</emphasis>
+              </para>
+              <result><para>Ein neues Fenster öffnet sich.</para></result>
+            </step>
+            
+            <step>
+              <para>Registerkarte suchen und auswählen. <emphasis role="posnum">(2)</emphasis></para>
+              <simplelist>
+                <member><emphasis role="bold">Für Apps: </emphasis>App über die Suchleiste suchen oder direkt bei den vorgeschlagenen
+                  Icons das entsprechende App-Icon anklicken.</member>
+                <member><emphasis role="bold">Bei Dateien: </emphasis>Um Dokumente als Registerkarte hinzuzufügen, das gewünschte Format
+                  (bspw. PDF-Datei) suchen und das entsprechende Icon anklicken.</member>
+              </simplelist>
+              <result><para>Ein neues Fenster öffnet sich.</para></result>
+            </step>
+            
+            <step>
+              <para>Registerkarte einrichten.</para>
+              <simplelist>
+                <member><emphasis role="bold">Bei Apps: </emphasis>Den Namen der Registerkarte hinzufügen. Jede App bietet zudem individuelle
+                  Einstellungen für die Registerkarte an.</member>
+                <member><emphasis role="bold">Bei Dokumenten: </emphasis>Die gewünschte Datei in der Ordnerstruktur auswählen. Die Datei
+                  muss bereits im Team hochgeladen sein.</member>
+              </simplelist>
+            </step>
+            
+            <step><para>Auf den Button Speichern klicken.</para></step>
+            
+            <result><para>Deine gewählte App oder Datei ist als Registerkarte zum Kanal hinzugefügt.</para></result>
+          </procedure>
+        </para>
+        
+        <note role="intro">
+          <para>Unter dem Link Weitere Apps kannst du dir einen Überblick über weitere hilfreiche Apps für dein Team verschaffen.</para>
+        </note>
+        
+      </simplesect>
+    </section>
+    
+    <section role="grid">
+      <title>Apps einbinden</title>
+      
+      <simplesect>
+        <title>Screenshots</title>
+        
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="bilder/screenshots/apps_einbinden.png"/>
+          </imageobject>
+        </mediaobject>
+      </simplesect>
+      
+      <simplesect>
+        <title>Handlung</title>
+        
+        <para>
+          Du befindest dich in der Navigationsleiste im Bereich Teams 
+          <inlinemediaobject>
+            <imageobject>
+              <imagedata fileref="bilder/icons/teams%20icon.png"/>
+            </imageobject>  
+          </inlinemediaobject> und hast bereits ein Team erstellt
+          (siehe Team erstellen):
+          
+          <procedure>
+            <step>
+              <para>
+                Auf den Button Weitere hinzugefügte Apps 
+                <inlinemediaobject>
+                  <imageobject>
+                    <imagedata fileref="bilder/icons/optionen%20horizontal%20screenshot.png"/>
+                  </imageobject>
+                </inlinemediaobject> links in der Navigationsleiste klicken. <emphasis role="posnum">(1)</emphasis>
+              </para>
+              <result><para>Ein neues Fenster öffnet sich.</para></result>
+            </step>
+            <step>
+              <para>Gewünschte App über die Suchleiste oder direkt bei den vorgeschlagenen Icons suchen. <emphasis role="posnum">(2)</emphasis></para>
+            </step>
+            <step>
+              <para>Die gewünschte App per Rechtsklick anklicken. <emphasis role="posnum">(3)</emphasis></para>
+              <result><para>Ein neues Fenster erscheint.</para></result>
+            </step>
+            <step>
+              <para>
+                Die Option 
+                <inlinemediaobject>
+                  <imageobject>
+                    <imagedata fileref="bilder/icons/anheften%20icon.png"/>
+                  </imageobject>
+                </inlinemediaobject> Anheften anklicken. <emphasis role="posnum">(4)</emphasis>
+              </para>
+            </step>
+            <result><para>Deine gewählte App ist nun dauerhaft an die Navigationsleiste angeheftet.</para></result>
+          </procedure>
+          
+          <note role="intro">
+            <para>Über den Link Weitere Apps kannst du dir einen Überblick über weitere hilfreiche
+              Apps für dein Team verschaffen. Du kannst auch sofort zur App-Auswahl
+              gelangen, indem du auf den Bereich Apps 
+              <inlinemediaobject>
+                <imageobject>
+                  <imagedata fileref="bilder/icons/apps%20icon.png"/>
+                </imageobject>
+              </inlinemediaobject> im unteren Teil der Navigationsleiste klickst.
+            </para>
+          </note>
+          
+        </para>
+      </simplesect>
+    </section>
+    
+  </chapter>
+
+
+  
+  <chapter>
+    <title>Arbeiten mit Teams</title>
+    
+    <para>Microsoft Teams ermöglicht:</para>
+    <simplelist>
+      <member>synchronisiert in einer Cloud-Umgebung abspeichern.</member>
+      <member>Synchron an Office-Dokumenten im Team zusammenarbeiten.</member>
+    </simplelist>
+    
+    <section role="grid">
+      <title>Dokumente hochladen</title>
+      
+      <simplesect>
+        <title>Screenshots</title>
+        
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="bilder/screenshots/dokumente_hochladen.png"/>
+          </imageobject>
+        </mediaobject>
+        
+      </simplesect>
+      
+      <simplesect>
+        <title>Handlung</title>
+        
+        <para>
+          Du befindest dich in der Navigationsleiste im Bereich Teams 
+          <inlinemediaobject>
+            <imageobject>
+              <imagedata fileref="bilder/icons/teams%20icon.png"/>
+            </imageobject>  
+          </inlinemediaobject> innerhalb eines Kanals:
+          
+          <procedure>
+            <step>
+              <para>In der Menüleiste in die Registerkarte Dateien wechseln. <emphasis role="posnum">(1)</emphasis></para>
+            </step>
+            
+            <step>
+              <para>Auf den Button 
+                <inlinemediaobject>
+                  <imageobject>
+                    <imagedata fileref="bilder/icons/hochladen%20icon.png"/>
+                  </imageobject>
+                </inlinemediaobject> Hochladen klicken. <emphasis role="posnum">(2)</emphasis></para>
+              <result><para>Ein neues Fenster öffnet sich.</para></result>
+            </step>
+            
+            <step>
+              <para>Im Dropdown-Menü eine der Optionen Dateien oder Ordner wählen. <emphasis role="posnum">(3)</emphasis></para>
+              <result><para>Ein neues Fenster öffnet sich.</para></result>
+            </step>
+            
+            <step>
+              <para>Entsprechende Dateien oder Ordner in der Ordner-Struktur des Endgerätes
+                auswählen. <emphasis role="posnum">(4)</emphasis></para>
+              <result><para>Ein neues Fenster öffnet sich.</para></result>
+            </step>
+            
+            <step>
+              <para>Mit Klick auf den Button Öffnen bzw. Ordner auswählen bestätigen. <emphasis role="posnum">(5)</emphasis></para>
+            </step>
+            
+            <result>
+              <para>Deine Datei oder dein Ordner ist unter der Registerkarte Dateien
+                hochgeladen.</para>
+            </result>
+            
+          </procedure>
+          
+          <note role="intro">
+              <para>Hochgeladene Ordner und Dateien sind jeweils ausschließlich innerhalb des ausgewählten
+                Kanals im Team verfügbar.</para>
+              <para>Hochgeladene Ordner und Dateien sind für alle Personen im Team sichtbar, bearbeitbar
+                und herunterladbar.</para>
+          </note>
+        </para>
+      </simplesect>
+    </section>
+    
+    <section role="grid">
+      <title>Synchron an Office-Dokumenten arbeiten</title>
+      
+      <simplesect>
+        <title>Screenshots</title>
+        
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="bilder/screenshots/synchron_arbeiten.png"/>
+          </imageobject>
+        </mediaobject>
+      </simplesect>
+      
+      <simplesect>
+        <title>Handlung</title>
+        
+        <para>
+          Du befindest dich in der Navigationsleiste im Bereich Teams 
+          <inlinemediaobject>
+            <imageobject>
+              <imagedata fileref="bilder/icons/teams%20icon.png"/>
+            </imageobject>  
+          </inlinemediaobject> innerhalb eines Kanals. Es wurden bereits Microsoft-Office-Dokumente in den Kanal hochgeladen.
+          
+          <procedure>
+            <step>
+              <para>In der Menüleiste in die Registerkarte
+                Dateien wechseln. <emphasis role="posnum">(1)</emphasis></para>
+            </step>
+            <step>
+              <para>Das entsprechende Dokument
+                in der Ordnerstruktur
+                anklicken.
+                Alternativ per Rechtsklick
+                auf das Dokument klicken,
+                im Kontextmenü auf Öffnen
+                klicken und eine der angezeigten
+                Optionen im Dropdown-
+                Menü auswählen. <emphasis role="posnum">(2)</emphasis></para>
+              <simplelist>
+                <member><emphasis role="bold">In Teams bearbeiten: </emphasis>Das Dokument öffnet sich innerhalb des Programmfenster
+                  von Microsoft Teams.</member>
+                <member><emphasis role="bold">Im Browser öffnen: </emphasis>Das Dokument wird im Standard-Browser des Endgeräts als
+                  Microsoft-Office-365-Dokument geöffnet.</member>
+                <member><emphasis role="bold">In der App öffnen: </emphasis>Das Dokument wird im dafür vorgesehenen Micorsoft-Programm
+                  (bspw. Microsoft Word) geöffnet.</member>
+                <member><emphasis role="bold">Standard ändern: </emphasis>Microsoft Teams bietet die Möglichkeit, Dokumente standardmäßig
+                  in einer der drei vorangegangenen Optionen zu öffnen.</member>
+              </simplelist>
+            </step>
+            <result>
+              <para>Das Dokument öffnet sich und du kannst mit deinem Team synchron daran
+                arbeiten.</para>
+            </result>
+          </procedure>
+          
+          <note role="intro">
+            <para>Wenn eine Personen in deinem Team etwas am Dokument ändert, zeigt dir
+              Microsoft Teams die Änderungen an, sobald du das Dokument öffnest.</para>
+            <para>Wenn mehrere Personen ein Dokument gleichzeitig bearbeiten, erscheint rechts
+              in der Menüleiste des Dokumentes ein Hinweis.</para>
+          </note>
+        </para>
+      </simplesect>
+    </section>
+    
+    <section role="grid">
+      <title>Kalender benutzen</title>
+      
+      <simplesect>
+        <title>Screenshots</title>
+        
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="bilder/screenshots/kalender%20benutzen.png"/>
+          </imageobject>
+        </mediaobject>
+      </simplesect>
+      
+      <simplesect>
+        <title>Handlung</title>
+        
+        <para>
+          Du befindest dich in der Navigationsleiste im Bereich Kalender 
+          <inlinemediaobject>
+            <imageobject>
+              <imagedata fileref="bilder/icons/kalender%20icon.png"/>
+            </imageobject>
+          </inlinemediaobject>. Dort kannst du
+          Besprechungen mit anderen Personen planen.
+          
+          <procedure>
+            <step>
+              <para>Im Kalender Datum und Zeitraum für den geplanten Termin anklicken.</para>
+              <result><para>Ein neues Fenster öffnet sich.</para></result>
+            </step>
+            
+            <step>
+              <para>Den Titel für die Besprechung hinzufügen. <emphasis role="posnum">(2)</emphasis></para>
+            </step>
+            
+            <step>
+              <para>Erforderliche Personen über ihren Namen oder ihre E-Mail-Adresse suchen
+                und auswählen. Durch Klick auf den Button 
+                <inlinemediaobject>
+                  <imageobject>
+                    <imagedata fileref="bilder/icons/plus%20icon.png"/>
+                  </imageobject>
+                </inlinemediaobject> Optional Personen zur Besprechung
+                einladen, die selbst über ihre Teilnahme entscheiden sollen. <emphasis role="posnum">(3)</emphasis></para>
+            </step>
+            <step>
+              <para>Den Zeitraum für die Besprechung final festlegen: Direkt in die Felder hineinschreiben
+                oder per Klick über die Kalender- und Stundenansicht die Daten
+                festlegen. <emphasis role="posnum">(4)</emphasis></para>
+            </step>
+            
+            <step>
+              <para>Über das Feld Kanal hinzufügen bestimmen, in welchem Team und welchem
+                Kanal die Besprechung stattfinden soll. <emphasis role="posnum">(5)</emphasis></para>
+            </step>
+            
+            <step>
+              <para>Optional den Ort hinzufügen, wenn ein Präsenztermin geplant ist. <emphasis role="posnum">(6)</emphasis></para>
+            </step>
+            
+            <step>
+              <para>Optional Beschreibung hinzufügen, um Details für die Teilnehmenden
+                festzuhalten. <emphasis role="posnum">(7)</emphasis></para>
+            </step>
+            
+            <step>
+              <para>Nach Eingabe der Daten auf den Button Speichern klicken. <emphasis role="posnum">(8)</emphasis></para>
+            </step>
+            
+            <result>
+              <para>Deine Besprechung ist als Termin sowohl in deinem Kalender als auch den
+                Kalendern der eingeladenen Personen mit allen Details eingetragen.</para>
+            </result>
+          </procedure>
+          
+          <note role="intro">
+            <para>Über den Reiter Terminplanungs-Assistent in der Menüleiste kannst du die
+              Kalender der anderen Personen in deinem Team einsehen. So kannst du den
+              Termin zeitlich besser an die Verfügbarkeit der anderen Personen anpassen.</para>
+          </note>
+        </para>
+      </simplesect>
+    </section>
+    
+  </chapter>
+  
+  <chapter>
+    <title>Chatten</title>
+    
+    <para>
+      Microsoft Teams bietet verschiedene Möglichkeiten, sich in Chats auszutauschen:
+    </para>
+    <simplelist>
+      <member>Mit einzelnen Personen oder dem ganzen Team chatten</member>
+      <member>In Chats alle möglichen Dateien (z.B. Dokumente, Bilder oder Videos) teilen</member>
+      <member>Geteilte Inhalte kommentieren und darauf mit Emojis reagieren</member>
+    </simplelist>
+    
+    <section>
+      <title>(Gruppen-)Chat erstellen</title>
+      
+      <para>
+        Du befindest dich innerhalb der Navigationsleiste im Bereich Chat 
+        <inlinemediaobject>
+          <imageobject>
+            <imagedata fileref="bilder/icons/chat%20icon.png"/>
+          </imageobject>
+        </inlinemediaobject>.
+        
+        <procedure>
+          <step>
+            <para>
+              In der Chatliste den Button Neuer Chat 
+              <inlinemediaobject>
+                <imageobject>
+                   <imagedata fileref="bilder/icons/neuer%20chat%20icon.png"/>
+                </imageobject>
+              </inlinemediaobject> auswählen. <emphasis role="posnum">(1)</emphasis>
+            </para>
+            <result><para>Eine Suchleiste im oberen Bereich des Feeds erscheint.</para></result>
+          </step>
+          
+          <step>
+            <para>Den Namen oder die E-Mail-Adresse der gewünschten Person eingeben.</para>
+          </step>
+          
+          <step>
+            <para>Auf die entsprechende Person klicken.</para>
+          </step>
+          
+          <step>
+            <para>Im Textfeld eine Nachricht eintippen und per Eingabetaste senden. <emphasis role="posnum">(4)</emphasis></para>
+          </step>
+          
+          <result>
+            <para>Der Chat mit der ausgewählten Person ist geöffnet.</para>
+          </result>
+        </procedure>
+        
+        </para>
+      
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="bilder/screenshots/neuer_chat.png"/>
+        </imageobject>
+      </mediaobject>
+      
+      <note role="intro">
+        <para>
+          Wenn du einen Chat mit mehreren Personen öffnen möchtest, dann wiederhole
+          die Schritte 2 und 3 für jede Person, die du dem Chat hinzufügen möchtest. Bei
+          Microsoft Teams kannst du Chats mit bis zu 250 Personen einrichten.
+        </para>
+      </note>
+    </section>
+    
+    <section>
+      <title>Nachrichten und Dateien im Chat teilen</title>
+      
+      <para>
+        Du befindest dich innerhalb der Navigationsleiste im Bereich Chat 
+        <inlinemediaobject>
+          <imageobject>
+            <imagedata fileref="bilder/icons/chat%20icon.png"/>
+          </imageobject>
+        </inlinemediaobject>. Der Chat ist bereits erstellt.
+        
+        <procedure>
+          <step>
+            <para>Unter dem Feld Zuletzt direkt in der Chatliste den gewünschten Chat
+              anklicken.</para>
+          </step>
+          
+          <step>
+            <para>Eine Nachricht im Feld am unteren Rand des Feeds verfassen. Über die unterschiedlichen
+              Icons unterhalb des Bereichs Eine neue Nachricht eingeben
+              können Inhalte im Chat geteilt werden. <emphasis role="posnum">(2)</emphasis></para>
+            
+            <simplelist>
+              <member>
+                Mit dem Button Dateien anfügen 
+                <inlinemediaobject>
+                  <imageobject>
+                    <imagedata fileref="bilder/icons/datei%20anfuegen%20icon.png"/>
+                  </imageobject>
+                </inlinemediaobject> kannst du unterschiedliche Datei-Typen über
+                die Ordnerstruktur des Endgeräts suchen und im Chat hochladen.
+              </member>
+              
+              <member>
+                Mit dem Button Emoji 
+                <inlinemediaobject>
+                  <imageobject>
+                    <imagedata fileref="bilder/icons/emoji%20icon.png"/>
+                  </imageobject>
+                </inlinemediaobject> kannst du Emojis als Reaktion im Chat nutzen.
+              </member>
+              
+              <member>
+                Mit dem Button Aufkleber 
+                <inlinemediaobject>
+                  <imageobject>
+                    <imagedata fileref="bilder/icons/aufkleber%20icon.png"/>
+                  </imageobject>
+                </inlinemediaobject> kannst du Aufkleber aussuchen.
+              </member>
+            </simplelist>
+          </step>
+          
+          <step>
+            <para>Eingabetaste drücken, um die Nachricht zu senden.</para>
+          </step>
+          
+          <result>
+            <para>Deine Nachricht mit dem angehängten Inhalt erscheint im Chat.</para>
+          </result>
+          
+        </procedure>
+      </para>
+      
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="bilder/screenshots/nachricht_eingeben.png"/>
+        </imageobject>
+      </mediaobject>
+      
+      <note role="intro">
+        <para>Um deine Nachricht optimal zu formatieren, kannst du unterhalb des Textfeldes
+          Eine neue Nachricht eingeben die beiden Buttons 
+          <inlinemediaobject>
+            <imageobject>
+              <imagedata fileref="bilder/icons/formatieren%20icon.png"/>
+            </imageobject>
+          </inlinemediaobject> Formatieren und 
+          <inlinemediaobject>
+            <imageobject>
+              <imagedata fileref="bilder/icons/loop%20icon.png"/>
+            </imageobject>
+          </inlinemediaobject> Loop-Komponenten auswählen und anschließend benutzerdefinierte Einstellungen
+          vornehmen.</para>
+      </note>
+      
+    </section>
+    
+    <section>
+      <title>Gruppenchat umbenennen</title>
+      
+      <para>
+        Du befindest dich innerhalb der Navigationsleiste im Bereich Chat 
+        <inlinemediaobject>
+          <imageobject>
+            <imagedata fileref="bilder/icons/chat%20icon.png"/>
+          </imageobject>
+        </inlinemediaobject>. Der Chat ist bereits erstellt.
+        
+        <procedure>
+          <step>
+            <para>Rechts oben neben dem Gruppennamen auf den Button Gruppen-Chat benennen 
+              <inlinemediaobject>
+                <imageobject>
+                  <imagedata fileref="bilder/icons/chat%20benennen%20icon.png"/>
+                </imageobject>
+              </inlinemediaobject> klicken. <emphasis role="posnum">(1)</emphasis></para>
+            
+            <result><para>Ein Eingabefeld erscheint.</para></result>
+          </step>
+          
+          <step>
+            <para>Den neuen Gruppennamen
+              eingeben und abspeichern. <emphasis role="posnum">(2)</emphasis></para>
+          </step>
+          
+          <result>
+            <para>Der Gruppenchat ist
+              umbenannt.</para>
+          </result>
+        </procedure>
+      </para>
+      
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="bilder/screenshots/chat_umbenennen.png"/>
+        </imageobject>
+      </mediaobject>
+    </section>
+    
+    <section>
+      <title>Personen zum Gruppenchat hinzufügen</title>
+      
+      <para>
+        Du befindest dich innerhalb der Navigationsleiste im Bereich Chat 
+        <inlinemediaobject>
+          <imageobject>
+            <imagedata fileref="bilder/icons/chat%20icon.png"/>
+          </imageobject>
+        </inlinemediaobject>. Ein Chat mit
+        mehreren Teilnehmern ist bereits erstellt und ausgewählt.
+        
+        <procedure>
+          <step>
+            <para>
+              In der Menüleiste auf den Button Teilnehmer anzeigen und hinzufügen
+              <inlinemediaobject>
+                <imageobject>
+                  <imagedata fileref="bilder/icons/teilnehmer%20hinzufuegen%20icon.png"/>
+                </imageobject>
+              </inlinemediaobject> klicken. <emphasis role="posnum">(1)</emphasis>
+            </para>
+            
+            <result>
+              <para>
+                Ein neues Fenster öffnet sich. Alle Personen im Chat sind nach Klick auf das
+                Symbol 
+                <inlinemediaobject>
+                  <imageobject>
+                    <imagedata fileref="bilder/icons/teilnehmer%20hinzufuegen%20icon.png"/>
+                  </imageobject>
+                </inlinemediaobject> untereinander aufgelistet.
+              </para>
+            </result>
+          </step>
+          
+          <step>
+            <para>Auf den Button Kontakte hinzufügen klicken. <emphasis role="posnum">(2)</emphasis></para>
+            <result><para>Ein neues Fenster erscheint.</para></result>
+          </step>
+          
+          <step>
+            <para>Neue Gruppenmitglieder über ihren Namen oder ihre E-Mail suchen und anwählen.
+              Anschließend auf den Button Hinzufügen klicken. <emphasis role="posnum">(3)</emphasis></para>
+          </step>
+          
+          <result>
+            <para>Zu deinem Chat sind weitere Gruppenmitglieder hinzugefügt.</para>
+          </result>
+        </procedure>
+        
+      </para>
+      
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="bilder/screenshots/chat_personen_hinzufuegen.png"/>
+        </imageobject>
+      </mediaobject>
+      
+      <note role="intro">
+        <para>Die kleine Zahl rechts neben dem Symbol Teilnehmer anzeigen und hinzufügen 
+          <inlinemediaobject>
+            <imageobject>
+              <imagedata fileref="bilder/icons/teilnehmer%20hinzufuegen%20icon.png"/>
+            </imageobject>
+          </inlinemediaobject> zeigt die akutelle Zahl der am Chat teilnehmenden Personen an.</para>
+      </note>
+      
+     
+    </section>
+  </chapter>
+  
+
+  <chapter>
+    <title>FAQ</title>
+    
+    <qandaset>
+      <qandaentry>
+        <question>
+          <para>Wie viele Teams kann ich maximal anlegen?</para>
+        </question>
+        <answer>
+          <para>Aktuell liegt die maximal mögliche Anzahl an Teams, die jede Person selbst erstellen
+            kann, bei 250 Teams.</para>
+        </answer>
+      </qandaentry>
+      
+      <qandaentry>
+        <question>
+          <para>Wie viele Kanäle kann ich maximal anlegen?</para>
+        </question>
+        <answer>
+          <para>Aktuell liegt die maximal mögliche Anzahl an Kanälen pro Team bei 200 Kanälen.
+            Dazu zählen auch gelöschte Kanäle im Papierkorb, denn erst 30 Tage, nachdem du
+            einen Kanal gelöscht hast, löscht Microsoft automatisch und endgültig den Kanal.
+            Davon abgesehen liegt aktuell die maximal mögliche Anzahl an privaten Kanälen pro
+            Nutzer bei 30 Kanälen.</para>
+        </answer>
+      </qandaentry>
+      
+      <qandaentry>
+        <question>
+          <para>In wie vielen Teams kann ich Mitglied sein?</para>
+        </question>
+        <answer>
+          <para>Aktuell liegt die maximal mögliche Anzahl an Teams, in denen eine Person gleichzeitig
+            Mitglied sein kann, bei 1.000 Teams.</para>
+        </answer>
+      </qandaentry>
+      
+      <qandaentry>
+        <question>
+          <para>Wie viele Mitglieder kann ein einzelnes Teams höchstens haben?</para>
+        </question>
+        <answer>
+          <para>Aktuell liegt die maximal mögliche Anzahl an Personen in jedem einzelnen Team bei
+            5.000.</para>
+        </answer>
+      </qandaentry>
+      
+      <qandaentry>
+        <question>
+          <para>Gibt es eine maximale Dateigröße?</para>
+        </question>
+        <answer>
+          <para>Ja, es gibt Grenzwerte bei den Dateigrößen in Microsoft Teams. Aktuell liegt die Maximalgröße
+            für Dateiuploads in Microsoft Teams bei 250 GB Dateigröße.
+            Die Maximalgröße eines Beitrags in einem Chat-Beitrag oder einer Kanalunterhaltung
+            liegt bei 28 KB pro Beitrag (inklusive Links, Konnektoren, Reaktionen, etc.) und
+            die Maximalgröße einer Teams-Nachricht bei 24 KB.</para>
+        </answer>
+      </qandaentry>
+      
+      <qandaentry>
+        <question>
+          <para>Kann ich mit Personen, die sich nicht innerhalb meiner Organisation befinden,
+            zusammen in einem Team arbeiten?</para>
+        </question>
+        <answer>
+          <para>Ja, eine Teambesitzer:in in Microsoft Teams kann Gäste in eigene Teams hinzufügen.
+            Jede Person, die über ein eigenes E-Mail-Konto verfügt, hat als Gast volle Zugriffsmöglichkeiten
+            in Teams. Als Gäste kannst du nur Personen hinzufügen, die sich außerhalb deiner Organisation
+            befinden. Personen innerhalb deiner Organisation können regulär als Teammitglied
+            beitreten.</para>
+        </answer>
+      </qandaentry>
+      
+      <qandaentry>
+        <question>
+          <para>Wie stelle ich sicher, dass Personen in einem Team oder einem Kanal meine
+            Nachricht sehen?</para>
+        </question>
+        <answer>
+           <para>
+             An besten funktioniert das, indem du sie in der entsprechenden Nachricht mit vorangestelltem
+             @-Zeichen erwähnst. Wenn du ein @ unmittelbar vor dem Namen der
+             Person schreibst, erhält die Person automatisch eine Benachrichtigung darüber.
+             Um die Aufmerksamkeit des gesamten Teams zu erhalten, gib vor deiner Nachricht
+             @team ein und alle Personen im Team erhalten Benachrichtigungen.
+           </para>
+        </answer>
+      </qandaentry>
+      
+      <qandaentry>
+        <question>
+          <para>Welche Browser unterstützt Microsoft Teams?</para>
+        </question>
+        <answer>
+          <para>Die Microsoft Teams-App funktioniert in folgenden Desktop-Browsern:
+            <simplelist>
+              <member>Internet Explorer 11</member>
+              <member>Microsoft Edge</member>
+              <member>Neueste Version von Chrome</member>
+              <member>Neueste Version von Firefox</member>
+              <member>Safari (bisher auftretende Probleme wurden gelöst)</member>
+            </simplelist>
+          </para>
+        </answer>
+      </qandaentry>
+      
+      <qandaentry>
+        <question>
+          <para>Kann ich Teams auch mobil von unterwegs nutzen?</para>
+        </question>
+        <answer>
+          <para>Micorsoft Teams ist auf allen mobilen Endgeräten in der Fülle seiner Funktionen
+            nutzbar. Das Programm funktioniert dabei über die mobile Teams-App.
+            Über den App-Store deines Mobilgeräts kannst du die App herunterladen und anschließend
+            mit der Arbeit durchstarten.</para>
+        </answer>
+      </qandaentry>
+      
+      <qandaentry>
+        <question>
+          <para>Gibt es eine Übersicht über alle möglichen Shortcuts für Teams?</para>
+        </question>
+        <answer>
+          <para>Ja. Oben links neben dem Account kannst du auf das Icon 
+            <inlinemediaobject>
+              <imageobject>
+                <imagedata fileref="bilder/icons/optionen%20horizontal%20screenshot.png"/>
+              </imageobject>
+            </inlinemediaobject> Einstellungen und mehr klicken. Im neuen Fenster kannst du auf Tastenkommbinationen klicken. 
+            Oder einfach Strg + E auf der Tastatur drücken, im Suchfeld nach Tastenkombinationen
+            suchen und per Eingabetaste auf die Tastenkombinationen zugreifen.</para>
+        </answer>
+      </qandaentry>
+    </qandaset>
+    
+  </chapter>
+
+
+</book>

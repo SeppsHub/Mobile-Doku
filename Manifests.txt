@@ -1,0 +1,67 @@
+--------------------------------
+
+Cache-Manifest für Offline-Nutzung der Inhalte:
+(siehe: https://html.spec.whatwg.org/dev/offline.html)
+
+<html lang="de" manifest="cache.manifest">
+
+In der Datei cache.manifest steht z. B.:
+
+CACHE MANIFEST
+# Kommentar, z. B. Datum Uhrzeit Versionsnummer
+
+CACHE:
+index.html
+eigenes.css
+../jqm/jquery.mobile-1.4.5.min.css
+../jqm/jquery-1.12.4.min.js
+../jqm/jquery.mobile-1.4.5.min.js
+bookicon.png
+bilder/name.png
+bilder/name.jpg
+
+NETWORK:
+*
+
+FALLBACK:
+
+--------------------------------
+
+Falls die Online-Ressourcen verwendet werden, entsprechend diese in den Cache aufnehmen:
+https://code.jquery.com/...
+
+--------------------------------
+
+Web App Manifest im head-Bereich (für App-Nutzung via Home-Screen, soll auf aktuellen Plattformen
+evtl. besser funktionieren als die "mobile-web-app"-Metatags, am besten beide Angaben einsetzen):
+(siehe: https://www.w3.org/TR/appmanifest/)
+
+<link rel="manifest" href="manifest.webmanifest"/>
+
+In der Datei manifest.webmanifest steht z. B.:
+
+{
+  "display": "standalone",
+  "name": "App-Name",
+  "short_name": "App-Name kurz",
+  "lang": "de",
+  "description": "App-Beschreibung",
+  "orientation": "portrait-primary",
+  "start_url": "index.html",
+  "icons": [
+    {
+      "src": "bookicon.png",
+      "density": "1.0",
+      "sizes": "128x128",
+      "type": "image/png"
+    }
+  ]
+}
+
+--------------------------------
+
+Tests:
+chrome://appcache-internals/
+opera://appcache-internals
+
+--------------------------------
